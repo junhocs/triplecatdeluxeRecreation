@@ -15,7 +15,7 @@
     <div class="text">Signup</div>
     <div class="menu">
       <div class="ui action input item">
-        <input type="text inverted" placeholder="Email"><button class="ui button inverted">Signup</button>
+        <input type="text inverted" placeholder="Email"><button class="ui inverted button">Signup</button>
       </div>
     </div>
   </div>
@@ -36,48 +36,41 @@
 
 <div class="ui borderless inverted menu" id="midItems">
   <div class="ui centered grid container">
-    <a class="item">(home)</a>
-    <a class="item">(about)</a>
-    <a class="ui dropdown item">
+    <a class="menuMid item">(home)</a>
+    <a class="menuMid item">(about)</a>
+    <a class="ui menuMid dropdown item">
       <div class="text">(stickers) +</div>
       <div class="menu">
-        <div class="item">(all)</div>
-        <div class="item">(invisible deluxe)</div>
-        <div class="item">(box slaps)</div>
-        <div class="item">(circle slaps)</div>
-        <div class="item">(decals)</div>
-        <div class="item">(peekers)</div>
-        <div class="item">(die cuts)</div>
-        <div class="item">(mini packs)</div>
+        <div class="menuMid item">(all)</div>
+        <div class="menuMid item">(invisible deluxe)</div>
+        <div class="menuMid item">(box slaps)</div>
+        <div class="menuMid item">(circle slaps)</div>
+        <div class="menuMid item">(decals)</div>
+        <div class="menuMid item">(peekers)</div>
+        <div class="menuMid item">(die cuts)</div>
+        <div class="menuMid item">(mini packs)</div>
       </div>
     </a>
-    <a class="item">(accessories)</a>
-    <a class="item">(apparel)</a>
-    <a class="item">(faqs)</a>
-    <a class="item">(contact)</a>
-    <a class="item">クラブ</a>
-    <a class="item">Log in</a>
+    <a class="menuMid item">(accessories)</a>
+    <a class="menuMid item">(apparel)</a>
+    <a class="menuMid item">(faqs)</a>
+    <a class="menuMid item">(contact)</a>
+    <a class="menuMid item">クラブ</a>
+    <a class="menuMid item">Log in</a>
   </div>
 </div>
 
-<div class="ui inverted segment" id="infoColumn">
-  <div class="ui two column very relaxed grid container">
-    <div class="column" style="text-align: center">
-      <p></p>
-      <p>INVISIBLE DELUXE AVAILABLE FOR 1 HOUR DURING NEW DROPS</p>
-      <p style="color: #00c7b6">NEXT DROP: 2020年04月??日 - 18:00 EST</p>
-      <p></p>
+  <div class="ui  two column grid container">
+    <div class="column" style="text-align: center; border-right: 1px solid white; height:31px">
+      <h6 class="title">INVISIBLE DELUXE AVAILABLE FOR 1 HOUR DURING NEW DROPS</h6>
+      <p class="tagline">NEXT DROP: 2020年04月??日 - 18:00 EST</p>
     </div>
-    <div class="column" style="text-align: center">
-      <p></p>
+    <div class="column" style="text-align: center;">
       <h6 class="title">ON VACATION : ORDERS WILL BE FULFILLED AFTER OCT 8</h6>
       <p class="tagline">DETAILS AT CHECKOUT SHIPPING OPTION!</p>
-      <p></p>
     </div>
   </div>
-  <div class="ui vertical divider">
   </div>
-</div>
 
 
 
@@ -85,10 +78,17 @@
 
 
 
-<div class="ui container">
-  <div class="column">
-    <p style="color: white; text-align:center" >get notified</p>
+<div class="ui footer inverted heavily-padded segment" id="footer">
+  <div class="ui list" style="text-align: center">
+    <p class="item">get notified for invisible deluxe (newsletter)</p>
+
+    <div class="ui action input" id="emailAddressInput">
+      <input type="text" placeholder="Email Address"><button class="ui inverted icon button">
+        <i class="angle right icon" style="color:#00c7b6"></i>
+      </button>
+    </div>
   </div>
+
 </div>
 
 <script>

@@ -24,19 +24,34 @@ body{
 #midItems>div>a{
   font-size: smaller;
 }
-#infoColumn{
+infoColumn{
   box-shadow: none;
   border:none;
   background-color: black;
 }
-
-#infoColumn.column.title{
-  font-size: 100%;
-  line-height: 1.3em;
+.title{
+  font-size: 80%;
   color: #ffffff;
   letter-spacing: 1px;
+  margin: 0 0 5px 0;
 }
 .tagline{
   color: #00c7b6;
   font-size: 9.6px;
+}
+.menuMid{
+  letter-spacing: 1px;
+}
+#footer{
+  margin-top: 104px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none;
+  border:none;
+  background-color: black;
+}
+#emailAddressInput{
+  width: 384px;
+  height: 46px;
 }
