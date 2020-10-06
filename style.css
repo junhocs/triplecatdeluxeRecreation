@@ -29,3 +29,14 @@ body{
   border:none;
   background-color: black;
 }
+
+#infoColumn.column.title{
+  font-size: 100%;
+  line-height: 1.3em;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.tagline{
+  color: #00c7b6;
+  font-size: 9.6px;
+}
